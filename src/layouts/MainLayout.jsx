@@ -10,10 +10,10 @@ function MainLayout() {
        <div className='h-screen'>
        <div><Navbar/></div>
        <div><BreadCrumbs/></div>
-        <main className='h-screen container flex flex-grow-1 bg-blend-lighten'>
+        <main className='container flex flex-grow-1 bg-blend-lighten'>
             <Outlet/>
         </main>
-        <div className='bg-lime-50 shadow-emerald-700'><Footer/></div>
+        <div className='bg-green-950 shadow-emerald-700 text-slate-100'><Footer/></div>
        </div>
     </>
   )

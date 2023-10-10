@@ -20,11 +20,11 @@ function Navbar() {
      })
   }
   return (
-   <div className='bg-lime-500'>
+   <div className='bg-emerald-950'>
      <div className='container flex justify-around py-6 '>
-        <Link className='btn select-secondary' to='/'>Recipe</Link>
-        <span className='text-2xl text-orange-500 cursor-pointer' onClick={changeMode}>{mode=='light'?<FaMoon/>:<FaSun/>}</span>
-        <Link className='btn bg-green-500' to='create'>Create</Link>
+        <Link className='btn select-secondary' to='/'>Films</Link>
+        <span className='text-2xl text-teal-400 cursor-pointer' onClick={changeMode}>{mode=='light'?<FaMoon/>:<FaSun/>}</span>
+        <Link className='btn bg-green-500' to='create'>Find your film</Link>
     </div>
    </div>
   )
