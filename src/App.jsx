@@ -2,10 +2,11 @@ import React from 'react'
 import { createBrowserRouter, Router, RouterProvider } from 'react-router-dom'
 import MainLayout from './layouts/MainLayout'
 import Home from './pages/Home'
-import Create from './pages/Create'
+import Create from './pages/Search'
 import Recipie from './pages/Recipie'
 import Readmore from './pages/Readmore'
 import Eror from './pages/Eror'
+import Search from './pages/Search'
 function App() {
   const routes = createBrowserRouter([
     {
@@ -18,8 +19,8 @@ function App() {
           element: <Home/>,
         },
         {
-          path: 'create',
-          element: <Create/>,
+          path: 'search',
+          element: <Search/>,
 
         },
         {
@@ -27,7 +28,7 @@ function App() {
           element: <Recipie/>,
         },
         {
-          path: 'recipes/:id',
+          path: 'docs/:id',
           element: <Readmore/>,
         }
       ]

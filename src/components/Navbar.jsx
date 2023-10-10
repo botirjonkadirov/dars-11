@@ -24,7 +24,7 @@ function Navbar() {
      <div className='container flex justify-around py-6 '>
         <Link className='btn select-secondary' to='/'>Films</Link>
         <span className='text-2xl text-teal-400 cursor-pointer' onClick={changeMode}>{mode=='light'?<FaMoon/>:<FaSun/>}</span>
-        <Link className='btn bg-green-500' to='create'>Find your film</Link>
+        <Link className='btn bg-green-500' to='search'>Find your film</Link>
     </div>
    </div>
   )
